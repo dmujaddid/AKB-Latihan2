@@ -1,15 +1,16 @@
 package com.example.lat2;
 
 import androidx.appcompat.app.AppCompatActivity;
-import android.support.v7.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
-import butterknife.ButterKnife;
+import android.view.View;
+import android.widget.Button;
+
 import butterknife.OnClick;
 
 public class LoginActivity extends AppCompatActivity {
 
-    // Tanggal pengerjaan : 17-18 April 2020
+    // Tanggal pengerjaan : 16-18 April 2020
     // NIM      : 10116599
     // Nama     : Robby Eka
     // Kelas    : IF6K
@@ -19,18 +20,23 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        ButterKnife(target: this);
+        Button btn = (Button) findViewById(R.id.btn_login);
+                btn.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent intent = new Intent(getApplicationContext(),RegisterActivity.class);
+                        startActivity(intent);
+                    }
+                });
 
-        if (getIntent().getBooleanExtra(ID_EXTRA_MSG_EXIT, defaultValue: false)) {
-            finish();
-        }
 
     }
 
-@OnClick(R.id.click_register)
-    void mulai() {
-    Intent intent = new Intent( packageContext: this, RegisterActivity.class);
-    startActivity(intent);
-}
+
+
+
+
+
+
 
 }

@@ -66,6 +66,8 @@
         android:layout_marginTop="20dp"
         android:gravity="center"
         android:text="@string/login_txt_doesnt"
-        android:textColor="@color/colorWhite" />
+        android:textColor="@color/colorWhite"
+
+        />
 
 </LinearLayout>
