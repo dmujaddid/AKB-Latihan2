@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lat2</string>
+
+    <string name="login_txt_doesnt">doesn\'t have account? Register</string>
+    <string name="login_edt_hint_username">Username</string>
+    <string name="login_edt_hint_password">Password</string>
+    <string name="login_btn_login">LOGIN</string>
+    <string name="login_btn_fb">CONNECT WITH FACEBOOK</string>
+    <string name="login_txt_or">OR</string>
+    <string name="almost_txt_almost_there">Almost There</string>
+    <string name="almost_txt_thankyou">Thank you for registering with us. Once more step,
+    you need to check your email to active your account</string>
+    <string name="almost_btn_verify">VERIFY</string>
+    <string name="register_edt_hint_email">Email</string>
+    <string name="register_edt_phone">Phone Number</string>
+    <string name="register_edt_hint_password">Password</string>
+    <string name="register_edt_hint_passwordre">Retype Password</string>
+    <string name="register_edt_hin_job">Job</string>
+    <string name="register_edt_hint_home">Home Address</string>
+    <string name="register_edt_hint_location">Default Location</string>
+    <string name="register_btn_register">REGISTER</string>
+
+</resources>

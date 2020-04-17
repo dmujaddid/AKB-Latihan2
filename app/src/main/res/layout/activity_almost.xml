@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".LoginActivity"
+    >
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal"
+       android:paddingTop="150dp"
+       android:text="@string/almost_txt_almost_there"
+       android:textColor="@color/colorWhite"
+       android:textSize="35sp"
+       />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingLeft="45sp"
+            android:paddingTop="20sp"
+            android:paddingRight="45sp"
+            android:paddingBottom="50dp"
+            android:text="@string/almost_txt_thankyou"
+            android:textColor="@color/colorWhite"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_button"
+        android:text="@string/almost_btn_verify"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/font16"
+
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>
