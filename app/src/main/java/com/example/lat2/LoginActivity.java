@@ -9,6 +9,11 @@ import butterknife.OnClick;
 
 public class LoginActivity extends AppCompatActivity {
 
+    // Tanggal pengerjaan : 17-18 April 2020
+    // NIM      : 10116599
+    // Nama     : Robby Eka
+    // Kelas    : IF6K
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
